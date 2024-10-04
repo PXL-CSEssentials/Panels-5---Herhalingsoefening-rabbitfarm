@@ -18,7 +18,7 @@ Een boerderij kan bestaan uit velden en stallen, genaamd huizen, waarin
 konijnen kunnen leven. Ieder veld heeft een capaciteit van honderd
 konijnen. Ieder huis heeft een capaciteit van veertig konijnen.
 
-![](./media/image1.emf)
+![screenshot](./media/image1.emf)
 
 ***Afb 1: Startscherm - Rabbit Farm***
 
