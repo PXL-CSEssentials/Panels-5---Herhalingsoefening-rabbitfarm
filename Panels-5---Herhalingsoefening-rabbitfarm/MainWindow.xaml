@@ -1,0 +1,40 @@
+﻿<Window x:Class="Panels_5___Herhalingsoefening_rabbitfarm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Panels_5___Herhalingsoefening_rabbitfarm"
+        mc:Ignorable="d"
+        Title="Rabbit Farm" Height="500" Width="800"
+        Loaded="Window_Loaded">
+    <Grid Background="LightGreen">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Margin="10" FontSize="20">Rabbit Farm</TextBlock>
+        <TextBlock Margin="20" Grid.Row="1">Aantal boerderij huizen:</TextBlock>
+        <TextBox Name="numberOfHousesTextBox" Margin="20" Grid.Row="1" Grid.Column="1"></TextBox>
+        <TextBlock Margin="20" Grid.Row="2">Aantal boerderij velden:</TextBlock>
+        <TextBox Name="numberOfFieldsTextBox" Margin="20" Grid.Row="2" Grid.Column="1"></TextBox>
+        <TextBlock Margin="20" Grid.Row="3">Grootte van sprong</TextBlock>
+        <TextBox Name="leapTextBox" Margin="20" Grid.Row="3" Grid.Column="1"></TextBox>
+        <TextBlock Margin="20" Grid.Row="4">Aantal maanden</TextBlock>
+        <TextBox Name="numberOfMonthsTextBox" Margin="20" Grid.Row="4" Grid.Column="1"></TextBox>
+        <TextBox Name="outputTextBox" Margin="20" Grid.Row="5" Grid.RowSpan="3" Grid.Column="1" Grid.ColumnSpan="2" IsReadOnly="True" VerticalScrollBarVisibility="Visible"></TextBox>
+        <Button Name="simulateButton" Margin="20" Click="simulateButton_Click" Grid.Row="3" Grid.Column="2">Simulatie</Button>
+        <Button Name="capacityButton" Margin="20" Grid.Row="2" Grid.Column="2" Click="capacityButton_Click">Bereken Capaciteit</Button>
+        <Button Name="clearButton" Margin="20" Grid.Row="5" Click="clearButton_Click">Wissen</Button>
+    </Grid>
+</Window>
