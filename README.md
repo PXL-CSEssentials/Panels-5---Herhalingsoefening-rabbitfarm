@@ -71,8 +71,8 @@ de bovenstaande afbeelding. (Afb 1)
 -   Als gebruiker krijg ik een foutmelding te zien in een berichtvenster
     wanneer ik op de "Bereken Capaciteit"-knop klik en ongeldige input
     ingeef. Input is ongeldig wanneer deze niet geconverteerd kan worden
-    naar een integer getal. (Zie Afb 3) ○ Zorg er voor dat het
-    berichtvenster een gepaste afbeelding heeft.
+    naar een integer getal. (Zie Afb 3)
+    -   Zorg er voor dat het berichtvenster een gepaste afbeelding heeft.
 
     -   Zorg er voor dat het berichtvenster enkel een "Ok"-knop heeft.
 
